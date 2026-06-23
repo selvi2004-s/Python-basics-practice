@@ -54,6 +54,8 @@ def main():
     dest = (address,port)
     conn = Client(dest,authkey=password)
    
+
+   
     #Command loop
     while True:
         command = input('\r\nEnter a command or type quit:\r\n').strip()
